@@ -268,44 +268,42 @@ figure {
   #colorlib-hero .flexslider {
     border: none;
     z-index: 1;
-    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   #colorlib-hero .flexslider .videoContainer {
     border-radius: 50%;
     display: block;
     margin: auto;
     width: 50%;
+    padding-top: 100%;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(90deg, rgba(118,189,255,1) 0%, rgba(255,102,254,1) 35%, rgba(255,196,171,1) 100%);
+    /* background: linear-gradient(90deg, rgba(118,189,255,1) 0%, rgba(255,102,254,1) 35%, rgba(255,196,171,1) 100%); */
     padding: 6px;
   }
-  #colorlib-hero .flexslider .videoContainer .videoContainer2 {
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    padding: 6px;
-  }
-  #colorlib-hero .flexslider .videoContainer .videoContainer2 video {
+  #colorlib-hero .flexslider .videoContainer video {
+    position: relative;
     border: none;
     z-index: 1;
     display: block;
     width: 100%;
+    height: 100%;
     border-radius: 50%;
     margin: auto;
     align-items: center;
     justify-content: center;
   }
-  #colorlib-hero .flexslider .videoContainer .videoContainer2 .btn {
+  #colorlib-hero .flexslider .btn {
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, -300%);
-    -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.25);
-    -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.3);
-    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.3);
+    z-index: 20;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    -webkit-box-shadow: 4px 4px 5px -6px rgba(0,0,0,0.25);
+    -moz-box-shadow: 4px 4px 5px -6px rgba(0,0,0,0.3);
+    box-shadow: 4px 4px 5px -6px rgba(0,0,0,0.3);
     font-size: 14px;
     color: #fff;
     padding: 12px 16px !important;

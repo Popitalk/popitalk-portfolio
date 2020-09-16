@@ -73,9 +73,9 @@ export default class About extends Component {
                     </div>
                     <div className="col-md-4 text-center animate-box">
                         <div className="services color-5">
-                            <img src={"https://deshmukh.ml/images/popitalk_dp.jpg"} alt="" />
+                            <img src={"https://i.ibb.co/qyXkX3r/unnamed.png"} alt="" />
                             <div className="desc">
-                                <h3>Abhishek</h3>
+                                <h3>Sulaiman</h3>
                                 <p>placeholder: I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
                             </div>
                         </div>

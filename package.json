@@ -8,8 +8,9 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-external-link": "^1.1.1",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^3.4.3",
     "yarn": "^1.13.0"
   },
   "scripts": {
