@@ -12,7 +12,6 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
   font-size: large;
   font-weight: normal;
@@ -27,6 +26,9 @@
 
 .icon-mail:before {
   content: "\e9c2";
+}
+.icon-heart:before {
+  content: "\e950";
 }
 .icon-pen2:before {
   content: "\e90f";

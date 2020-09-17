@@ -6,7 +6,7 @@ export default class Introduction extends Component {
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
           <div className="flexslider js-fullheight">
             <a href="https://popitalk.com" className="btn">
-              Go to Popitalk ▶
+              Visit Popitalk
             </a>
             <div className="videoContainer">
               <video autoPlay muted loop>

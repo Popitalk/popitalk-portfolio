@@ -12,7 +12,7 @@ export default class Sidebar extends Component {
             <div className="text-center">
               <img className="author-img" src={logo} alt="logo" />
               <h1 id="colorlib-logo"><a href="index.html">Popitalk Team</a></h1>
-              <span className="email"><i className="icon-mail"></i>about@popitalk.com</span>
+              <span className="email"><a href="https://mailto:about@popitalk.com"><i className="icon-mail"/>about@popitalk.com</a></span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
@@ -37,8 +37,8 @@ export default class Sidebar extends Component {
             </nav>
             <div className="colorlib-footer">
               <p><small>
-                  Made with <i className="icon-heart" aria-hidden="true" /> and <i className="icon-beer" aria-hidden="true"></i><br></br>
-                  By Popitalk Team 
+                  Made with <i className="icon-heart" aria-hidden="true"/> and <i className="icon-beer" aria-hidden="true"/><br/>
+                  By Popitalk Team
               </small></p>
             </div>
           </aside>
