@@ -32,6 +32,7 @@ export default class Sidebar extends Component {
                 <li><a href="https://twitter.com/PopitalkT" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
                 <li><a href="https://www.instagram.com/popi.talk" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
                 <li><a href="https://medium.com/popitalk" target="_blank" rel="noopener noreferrer"><i className="icon-blogger2"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCJSjPolz6SiYKvVxFmK-Z1A" target="_blank" rel="noopener noreferrer"><i className="icon-youtube"></i></a></li>
               </ul>
             </nav>
             <div className="colorlib-footer">
