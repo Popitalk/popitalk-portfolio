@@ -11,7 +11,7 @@ export default class Sidebar extends Component {
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
               <img className="author-img" src={logo} alt="logo" />
-              <h1 id="colorlib-logo"><a href="index.html">Popitalk Team</a></h1>
+              <h1 id="colorlib-logo"><a href="index.html">About Popitalk</a></h1>
               <span className="email"><a href="https://mailto:about@popitalk.com"><i className="icon-mail"/>about@popitalk.com</a></span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
